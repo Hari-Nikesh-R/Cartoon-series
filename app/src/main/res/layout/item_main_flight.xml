@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="14dp"
+    android:layout_marginTop="16dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp"
+    android:visibility="visible"
+    android:id="@+id/card"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginVertical="16dp"
+
+        >
+
+
+        <ImageView
+            android:id="@+id/iv_mainflight_logo"
+            android:layout_width="120dp"
+            android:layout_height="200dp"
+
+            android:src="@drawable/image"
+            android:paddingBottom="10dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/white"
+            >
+            <TextView
+                android:id="@+id/tv_mainflight_name"
+                android:layout_marginLeft="10dp"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:singleLine="true"
+                android:text="Title"
+                android:textStyle="bold"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:scrollHorizontally="true"
+
+
+
+                />
+            <TextView
+                android:id="@+id/tv_mainflight_passengerName"
+                android:layout_width="180dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:singleLine="true"
+                android:text="Type"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:scrollHorizontally="true"
+
+                />
+            <TextView
+                android:id="@+id/tv_mainflight_trips"
+                android:layout_width="180dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:singleLine="true"
+                android:text="Type"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:scrollHorizontally="true"
+
+
+                />
+
+            <TextView
+                android:id="@+id/tv_mainflight_country"
+                android:layout_width="180dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:singleLine="true"
+                android:text="Year"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:scrollHorizontally="true"
+
+                />
+            <TextView
+                android:id="@+id/tv_mainflight_established"
+                android:layout_width="180dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:singleLine="true"
+                android:text="Year"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:scrollHorizontally="true"
+
+                />
+
+            <RatingBar
+                android:layout_marginTop="12dp"
+                android:layout_marginStart="8dp"
+                android:id="@+id/rt_mainflight_rating"
+                style="@android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX=".5"
+                android:scaleY=".5"
+                android:transformPivotX="0dp"
+                android:transformPivotY="0dp"
+                android:isIndicator="true"
+                android:max="5" />
+
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/g_imageView2"
+            android:layout_width="wrap_content"
+            android:gravity="end"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+
+            />
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+
+
+</androidx.cardview.widget.CardView>
+
