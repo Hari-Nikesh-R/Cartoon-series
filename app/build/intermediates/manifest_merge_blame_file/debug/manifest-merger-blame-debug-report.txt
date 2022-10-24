@@ -1,0 +1,115 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.cartoomseries"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->H:\This PC Hari\Intellj Projects\Android Projects\Cartoomseries-20221024T064222Z-001\Cartoomseries\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->H:\This PC Hari\Intellj Projects\Android Projects\Cartoomseries-20221024T064222Z-001\Cartoomseries\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->H:\This PC Hari\Intellj Projects\Android Projects\Cartoomseries-20221024T064222Z-001\Cartoomseries\app\src\main\AndroidManifest.xml:6:5-67
+11-->H:\This PC Hari\Intellj Projects\Android Projects\Cartoomseries-20221024T064222Z-001\Cartoomseries\app\src\main\AndroidManifest.xml:6:22-64
+12
+13    <application
+13-->H:\This PC Hari\Intellj Projects\Android Projects\Cartoomseries-20221024T064222Z-001\Cartoomseries\app\src\main\AndroidManifest.xml:8:5-45:19
+14        android:allowBackup="true"
+14-->H:\This PC Hari\Intellj Projects\Android Projects\Cartoomseries-20221024T064222Z-001\Cartoomseries\app\src\main\AndroidManifest.xml:9:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.7.0] C:\Users\harin\.gradle\caches\transforms-3\0c734a8f9451ded3159b05d46fc9a23a\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+16        android:dataExtractionRules="@xml/data_extraction_rules"
+16-->H:\This PC Hari\Intellj Projects\Android Projects\Cartoomseries-20221024T064222Z-001\Cartoomseries\app\src\main\AndroidManifest.xml:10:9-65
+17        android:debuggable="true"
+18        android:fullBackupContent="@xml/backup_rules"
+18-->H:\This PC Hari\Intellj Projects\Android Projects\Cartoomseries-20221024T064222Z-001\Cartoomseries\app\src\main\AndroidManifest.xml:11:9-54
+19        android:icon="@mipmap/ic_launcher"
+19-->H:\This PC Hari\Intellj Projects\Android Projects\Cartoomseries-20221024T064222Z-001\Cartoomseries\app\src\main\AndroidManifest.xml:12:9-43
+20        android:label="@string/app_name"
+20-->H:\This PC Hari\Intellj Projects\Android Projects\Cartoomseries-20221024T064222Z-001\Cartoomseries\app\src\main\AndroidManifest.xml:13:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->H:\This PC Hari\Intellj Projects\Android Projects\Cartoomseries-20221024T064222Z-001\Cartoomseries\app\src\main\AndroidManifest.xml:14:9-54
+22        android:supportsRtl="true"
+22-->H:\This PC Hari\Intellj Projects\Android Projects\Cartoomseries-20221024T064222Z-001\Cartoomseries\app\src\main\AndroidManifest.xml:15:9-35
+23        android:theme="@style/Theme.CartoomSeries" >
+23-->H:\This PC Hari\Intellj Projects\Android Projects\Cartoomseries-20221024T064222Z-001\Cartoomseries\app\src\main\AndroidManifest.xml:16:9-51
+24        <activity
+24-->H:\This PC Hari\Intellj Projects\Android Projects\Cartoomseries-20221024T064222Z-001\Cartoomseries\app\src\main\AndroidManifest.xml:18:9-20:40
+25            android:name="com.example.cartoomseries.FlightDetailActivity"
+25-->H:\This PC Hari\Intellj Projects\Android Projects\Cartoomseries-20221024T064222Z-001\Cartoomseries\app\src\main\AndroidManifest.xml:19:13-49
+26            android:exported="false" />
+26-->H:\This PC Hari\Intellj Projects\Android Projects\Cartoomseries-20221024T064222Z-001\Cartoomseries\app\src\main\AndroidManifest.xml:20:13-37
+27        <activity
+27-->H:\This PC Hari\Intellj Projects\Android Projects\Cartoomseries-20221024T064222Z-001\Cartoomseries\app\src\main\AndroidManifest.xml:21:9-23:40
+28            android:name="com.example.cartoomseries.FlightMainActivity"
+28-->H:\This PC Hari\Intellj Projects\Android Projects\Cartoomseries-20221024T064222Z-001\Cartoomseries\app\src\main\AndroidManifest.xml:22:13-47
+29            android:exported="false" />
+29-->H:\This PC Hari\Intellj Projects\Android Projects\Cartoomseries-20221024T064222Z-001\Cartoomseries\app\src\main\AndroidManifest.xml:23:13-37
+30        <activity
+30-->H:\This PC Hari\Intellj Projects\Android Projects\Cartoomseries-20221024T064222Z-001\Cartoomseries\app\src\main\AndroidManifest.xml:24:9-26:40
+31            android:name="com.example.cartoomseries.FlightSplashActivity"
+31-->H:\This PC Hari\Intellj Projects\Android Projects\Cartoomseries-20221024T064222Z-001\Cartoomseries\app\src\main\AndroidManifest.xml:25:13-49
+32            android:exported="false" />
+32-->H:\This PC Hari\Intellj Projects\Android Projects\Cartoomseries-20221024T064222Z-001\Cartoomseries\app\src\main\AndroidManifest.xml:26:13-37
+33        <activity
+33-->H:\This PC Hari\Intellj Projects\Android Projects\Cartoomseries-20221024T064222Z-001\Cartoomseries\app\src\main\AndroidManifest.xml:27:9-29:40
+34            android:name="com.example.cartoomseries.DetailActivity"
+34-->H:\This PC Hari\Intellj Projects\Android Projects\Cartoomseries-20221024T064222Z-001\Cartoomseries\app\src\main\AndroidManifest.xml:28:13-43
+35            android:exported="false" />
+35-->H:\This PC Hari\Intellj Projects\Android Projects\Cartoomseries-20221024T064222Z-001\Cartoomseries\app\src\main\AndroidManifest.xml:29:13-37
+36        <activity
+36-->H:\This PC Hari\Intellj Projects\Android Projects\Cartoomseries-20221024T064222Z-001\Cartoomseries\app\src\main\AndroidManifest.xml:30:9-32:40
+37            android:name="com.example.cartoomseries.SearchActivity"
+37-->H:\This PC Hari\Intellj Projects\Android Projects\Cartoomseries-20221024T064222Z-001\Cartoomseries\app\src\main\AndroidManifest.xml:31:13-43
+38            android:exported="false" />
+38-->H:\This PC Hari\Intellj Projects\Android Projects\Cartoomseries-20221024T064222Z-001\Cartoomseries\app\src\main\AndroidManifest.xml:32:13-37
+39        <activity
+39-->H:\This PC Hari\Intellj Projects\Android Projects\Cartoomseries-20221024T064222Z-001\Cartoomseries\app\src\main\AndroidManifest.xml:33:9-41:20
+40            android:name="com.example.cartoomseries.SplashActivity"
+40-->H:\This PC Hari\Intellj Projects\Android Projects\Cartoomseries-20221024T064222Z-001\Cartoomseries\app\src\main\AndroidManifest.xml:34:13-43
+41            android:exported="true" >
+41-->H:\This PC Hari\Intellj Projects\Android Projects\Cartoomseries-20221024T064222Z-001\Cartoomseries\app\src\main\AndroidManifest.xml:35:13-36
+42            <intent-filter>
+42-->H:\This PC Hari\Intellj Projects\Android Projects\Cartoomseries-20221024T064222Z-001\Cartoomseries\app\src\main\AndroidManifest.xml:36:13-40:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->H:\This PC Hari\Intellj Projects\Android Projects\Cartoomseries-20221024T064222Z-001\Cartoomseries\app\src\main\AndroidManifest.xml:37:17-69
+43-->H:\This PC Hari\Intellj Projects\Android Projects\Cartoomseries-20221024T064222Z-001\Cartoomseries\app\src\main\AndroidManifest.xml:37:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->H:\This PC Hari\Intellj Projects\Android Projects\Cartoomseries-20221024T064222Z-001\Cartoomseries\app\src\main\AndroidManifest.xml:39:17-77
+45-->H:\This PC Hari\Intellj Projects\Android Projects\Cartoomseries-20221024T064222Z-001\Cartoomseries\app\src\main\AndroidManifest.xml:39:27-74
+46            </intent-filter>
+47        </activity>
+48        <activity
+48-->H:\This PC Hari\Intellj Projects\Android Projects\Cartoomseries-20221024T064222Z-001\Cartoomseries\app\src\main\AndroidManifest.xml:42:9-44:39
+49            android:name="com.example.cartoomseries.MainActivity"
+49-->H:\This PC Hari\Intellj Projects\Android Projects\Cartoomseries-20221024T064222Z-001\Cartoomseries\app\src\main\AndroidManifest.xml:43:13-41
+50            android:exported="true" />
+50-->H:\This PC Hari\Intellj Projects\Android Projects\Cartoomseries-20221024T064222Z-001\Cartoomseries\app\src\main\AndroidManifest.xml:44:13-36
+51
+52        <provider
+52-->[androidx.emoji2:emoji2:1.0.0] C:\Users\harin\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+53            android:name="androidx.startup.InitializationProvider"
+53-->[androidx.emoji2:emoji2:1.0.0] C:\Users\harin\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+54            android:authorities="com.example.cartoomseries.androidx-startup"
+54-->[androidx.emoji2:emoji2:1.0.0] C:\Users\harin\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+55            android:exported="false" >
+55-->[androidx.emoji2:emoji2:1.0.0] C:\Users\harin\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+56            <meta-data
+56-->[androidx.emoji2:emoji2:1.0.0] C:\Users\harin\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+57                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+57-->[androidx.emoji2:emoji2:1.0.0] C:\Users\harin\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+58                android:value="androidx.startup" />
+58-->[androidx.emoji2:emoji2:1.0.0] C:\Users\harin\.gradle\caches\transforms-3\9cb5d0b2fd275b8005e0d8fda37c4df6\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+59            <meta-data
+59-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\harin\.gradle\caches\transforms-3\8eef53d9995d138e5396bc0361630197\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+60                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+60-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\harin\.gradle\caches\transforms-3\8eef53d9995d138e5396bc0361630197\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+61                android:value="androidx.startup" />
+61-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\harin\.gradle\caches\transforms-3\8eef53d9995d138e5396bc0361630197\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+62        </provider>
+63    </application>
+64
+65</manifest>
