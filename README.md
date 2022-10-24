@@ -9,4 +9,4 @@ Search your favorite cartoon and anime show in this application. A Basic android
 
 * Also find the APK file in the repository.
 
-<img src="https://tinyurl.com/zwecwt93" width="24" height="24"> If it causes a gradle error. Create new project and replace the <h4>src folder, build.gradle file, Manifest file</h4>
+<img src="https://tinyurl.com/zwecwt93"> If it causes a gradle error. Create new project and replace the <h2>src folder, build.gradle file, Manifest file</h2>
